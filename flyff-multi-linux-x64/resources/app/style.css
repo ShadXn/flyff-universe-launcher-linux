@@ -1,0 +1,74 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Adjust this to match your title bar or window background color */
+    overflow: hidden; /* Prevent scrolling */
+    height: 100%;
+    width: 100%;
+}
+
+#title-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    background: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 10px;
+    -webkit-app-region: drag;
+}
+
+.title-bar-icon {
+    height: 20px; /* Adjust size as needed */
+    width: 20px; /* Maintain aspect ratio */
+    margin-right: 10px; /* Space between icon and title */
+    -webkit-app-region: no-drag;
+}
+
+.title-bar-controls {
+    margin-left: auto; /* Push controls to the right */
+    -webkit-app-region: no-drag;
+    display: flex;
+}
+
+.title-bar-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 5px 10px; /* Adjust padding here, particularly the right padding if needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-bar-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.title {
+    font-weight: bold;
+    color: transparent;
+    background: -webkit-linear-gradient(#27a1e7, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Sedan", serif; /* Change title font as needed */
+}
+
+.session-btn {
+    font-weight: bold;
+    color: transparent;
+    background: -webkit-linear-gradient(#27a1e7, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Sedan", serif; /* Change title font as needed */
+}
+
+.btn {
+    margin: 0 15px 15px 0;
+}
+
+
+
