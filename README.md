@@ -1,5 +1,5 @@
-# Flyff Universe Launcher for Windows
-This project provides a custom Windows .exe launcher with multi-account support for Flyff Universe, an MMORPG. It's built using Electron and features a custom title bar with system control buttons (minimize, maximize, close) on the right side and an app icon on the left side.
+# Flyff Universe Launcher for Linux
+This project provides a custom Linux launcher with multi-account support for Flyff Universe, an MMORPG. It's built using Electron and features a custom title bar with system control buttons (minimize, maximize, close) on the right side and an app icon on the left side.
 
 ## Features
 - **Multi-Account Support:** Launch multiple instances of Flyff Universe simultaneously.
@@ -10,9 +10,16 @@ This project provides a custom Windows .exe launcher with multi-account support 
 
 ### Installation
 No installation is required. To start using the launcher:
-1. Download the folder `flyff-multi-win32-x64`.
-2. Run `flyff-multi.exe`.
-3. Optional: Add as a non-Steam game for easy access from your Steam library.
+1. Download the package `flyff-multi-linux-x64`.
+2. Make the launcher executable:
+   ```bash
+   chmod +x flyff-multi
+   ```
+3. Run the launcher:
+   ```bash
+   ./flyff-multi
+   ```
+4. Optional: Add as a non-Steam game for easy access from your Steam library.
 
 ### Configuration
 #### Customizing Button Labels
